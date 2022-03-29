@@ -1,0 +1,26 @@
+# Kickstarting with Excel
+Conor Hanson
+## Overview of Project
+This project surveyed, organized, and analyzed data from Kickstarter crowdfunding campaigns.  
+## Purpose
+The purpose of this project was to create an analysis and visualization of Kickstarter data of fundraising campaigns for plays. Louise wants to compare her campaign with others based on both their launch dates and fundraising goals.
+### Analysis and Challenges
+From the base Kickstarter dataset I compiled two separate sheets each with a corresponding graph. In the first sheet (Theater Outcomes by Launch Date) I organized the data into a pivot table. The table shows the number of successful, failed, or canceled theater Kickstarters for each month of the year. Both the year and Parent Category are able to be filtered. The graph below displays both the number and kind of outcome for theater campaigns over the course of all years from the dataset.
+![Theater_Outcomes_vs_Launch](https://github.com/conorwhanson/week1_excel_hw/blob/main/resources/Theater_Outcomes%20_vs_Launch.png)
+
+In the second sheet (Outcomes Based on Goals) I organized the total number of successful, failed, or canceled plays (a subcategory of theater campaigns) in order to visualize and analyze how plays fared based on their fundraising goal. The graph below displays the percentage of successful, failed, or canceled play fundraisers based on their fundraising goals.
+![Outcomes_v_Goals](https://github.com/conorwhanson/week1_excel_hw/blob/main/resources/Outcomes_vs_Goals.png)
+
+Extracting and compiling the data was not difficult. However, based on the two datasets extracted I can see two potential challenges regarding using this data to advise Louise. First, the data lacks a more precise analysis since it covers all countries in which the fundraising campaigns were done. Differing cultural interests, as well as other factors like ubiquity of theaters in those countries, are some variables that would be helpful to yield a more precise picture of the factors contributing to the success of Lousie's campaign. Second, these datasets lack the variables of both the number of backers and the average backer contribution. Given the success and failure rates of theater campaigns based on launch date and theater campaigns based on fundraising goal, a clearer picture could be given on how many backers Louise should aim for, as well as setting an average contribution per backer to help her achieve her goal.
+
+### Analysis of Outcomes Based on Launch Date
+The data for theater fundraising campaigns based on launch date yields a couple of observations that are pertinent to Louise's own campaign. First, Spring-to-early-Summer (April to June) is correlated with a greater number of successful campaigns. While the factors for this are certainly numerous, beginning a campaign in Spring or early Summer will almost certainly set Louise up for success. Second, the longer Louise waits to launch her campaign, the higher the probability of failure. The data shows a clear trend of stabilized failures paired with diminishing successful campaigns as the Summer progresses. 
+
+### Analysis of Outcomes Based on Goals
+The data for outcomes based on fundraising goals will be very helpful for Louise setting a fundraising goal. The data is filtered for the subcategory of plays, which is precisely the kind of campaign Louise is seeking to start. The majority of plays fundraised (69%) were $5,000 or less, with a success rate above 70%. The number and success-rate of plays drastically drops off for campaigns above $5,000.
+
+### Challenges and Difficulties Encountered
+While the data was plentiful from which to draw, and much is available to help Louise in setting up her fundraising campaign, there are a couple challenges that could be present depending on Louise's goals. First, if Louise were to seek to start a future campaign that had a larger budget, a larger sample size would be needed to give her an accurate picture of the factors contributing to the success of campaigns. There simply aren't enough data points to sufficiently advise on larger campaign goals if one were to set a larger goal. Second, without further analysis of country and backer count/average donation, any advice given will be "from 30,000 feet" and not take into account the local shape of the campaigns. More data filtering and analysis would yield a clearer picture of this.
+
+## Results
+Based on the "Outcomes based on Launch Date" data I would advise Louise to begin her campaign by June at the latest. May would be the ideal month in which to launch her campaign. Based on the "Outcomes Based on Goals" data, I'd suggest Louise keep her play budget below $5,000. Anything above that runs into an area correlating with higher failure rates and lacks a large enough set of data points from which to draw helpful conclusions. The limitations of this dataset are that it does not specify data based on the country in which Louise plans to fundraise, nor does it give Louise a picture of how many backers she should seek and the amount per backer. Two added visualizations, one for Louise's country and one for backer count and average donation, would be very beneficial for Louise to plan her campaign with more precision.
